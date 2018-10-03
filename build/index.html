@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>title</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- <script type="text/javascript" src="person.js"></script>
+    <script type="text/javascript" src="customExceptions.js"></script>
+    <script type="text/javascript" src="calculatorFunctions.js"></script> -->
+    <script type="text/javascript" src="bundle.js"></script>
+    
+
+  </head>
+  <body>
+    <aside>
+      <h2>Workspace</h2>
+      <h4>Choose an option</h4>
+      <select id="users">
+      </select>	
+      <br /><br />
+      <select id="operations">
+        <!--TODO que el select se llene automáticamente-->
+            <option value="ADD">Add</option>               
+    </select>
+      <div id="inputs">
+          <input type="number" name="operand[]"/>
+      </div>
+      <br />
+      <button id="add">Add</button>
+      <button id="execute">Execute</button>
+      <br /><br />
+      Result: <input type="number" id="result" readonly />
+  </aside>
+  </body>
+</html>
